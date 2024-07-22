@@ -1,0 +1,66 @@
+.cosreg{
+    background-color: #cbd8b8;
+}
+.registration-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .registration-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+    color: rgb(73, 149, 77);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: rgb(73, 149, 77);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mb-3 {
+    margin-bottom: 20px;
+  }
+  
+  .mb-3 .form-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .mb-3 input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  

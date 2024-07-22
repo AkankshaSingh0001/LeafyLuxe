@@ -1,0 +1,79 @@
+/* AppointmentsList.css */
+
+/* Container styles */
+.container {
+    margin: 20px;
+  }
+  
+  /* Table styles */
+  .adminappo {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .adminappo th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .adminappo th {
+    background-color: rgb(38, 156, 44);
+    font-weight: bold;
+  }
+  
+  /* Loading and error message styles */
+  .loading, .error {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffecec;
+    border: 1px solid #f5aca6;
+    color: #d60000;
+  }
+  
+  /* No appointments message style */
+  .no-appointments {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    .adminappo {
+      overflow-x: auto;
+      display: block;
+    }
+  
+    .adminappo thead, tbody, tr, th, td {
+      display: block;
+    }
+  
+    .adminappo tr {
+      border-bottom: none;
+    }
+  
+    .adminappo th {
+      display: none;
+    }
+  
+    .adminappo td {
+      border-bottom: 1px solid #ddd;
+      position: relative;
+      padding-left: 50%;
+      white-space: nowrap;
+    }
+  
+    .adminappo td:before {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      content: attr(data-label);
+    }
+  }
+  

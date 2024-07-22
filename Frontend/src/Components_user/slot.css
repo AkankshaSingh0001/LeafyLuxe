@@ -1,0 +1,62 @@
+.slot-booking-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #cbd8b8;
+  }
+  
+  .middle-part {
+    background-color: #f9f9f9; /* Change the background color for the middle part */
+    padding: 20px;
+    border-radius: 10px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  }
+  
+  .middle-part h2 {
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn-primary11 {
+    background-color: rgb(73, 149, 77);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Center the button horizontally */
+    margin: 0 auto;
+  }
+  
+  .btn-primary:hover {
+    color: rgb(73, 149, 77);
+    border: 2px solid rgb(73, 149, 77);
+    background-color: white;
+  }
+  .slot1{
+    overflow: hidden;
+  }

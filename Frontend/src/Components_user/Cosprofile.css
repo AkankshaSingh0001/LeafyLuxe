@@ -1,0 +1,65 @@
+.cosprofile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 86.2vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgb(177, 209, 178);
+}
+.ccustomer-details{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.cosproimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cosproimg img{
+    border-radius: 50%;
+}
+.cosproname{
+    overflow: hidden;
+    color:rgb(73, 149, 77);
+}
+.cosdetail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cosprobut{
+    height: 50px;
+    width: 180px;
+    color: white;
+    background-color: rgb(73, 149, 77);
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: auto;
+}
+.cosprobut:hover{
+    border: 2px solid rgb(73, 149, 77);
+    color: rgb(73, 149, 77);
+    background-color: white;
+}
+.coslable{
+    font-weight: 600;
+}
+.costext{
+    height: 40px;
+    width: 280px;
+    border-radius: 10px;
+    border: 1px solid rgb(73, 149, 77);
+}

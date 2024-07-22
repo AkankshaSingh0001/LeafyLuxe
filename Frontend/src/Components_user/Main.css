@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+}
+
+.main1{
+    margin-top: 0px;
+    background-position: center;
+    height: 80vh;
+    overflow: hidden;
+    background-size: cover;
+    width: 120%;
+    padding: 0px;
+    background-color: rgb(233, 233, 233);
+}
+.main_img{
+    height: 80vh;
+    background-position: center;
+    width: 100%;
+}
+.cirm1{
+    height: 450px;
+    width: 450px;
+    border-radius: 450px;
+    background-color: rgb(220, 220, 220);
+    margin-top: 10vh;
+    margin-left: 4%;
+    position: absolute;
+}
+.h1main{
+    
+    font-size: 50px;
+    color:rgb(73, 149, 77);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2main{
+    font-size: 50px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:150px;
+}
+.textadj
+{
+    position: absolute;
+    z-index: 988;
+    margin-top: 25vh;
+    margin-left:8%;
+}
+.mainser{
+    height: 50px;
+    color: White;
+    border:none;
+    background-color:rgb(73, 149, 77);
+    margin-top: 1.5vh;
+    width: 180px;
+    margin-left: 35%;
+    font-size: 20px;
+}
+.mainser:hover{
+    background-color: #cad3c9;
+    color: black;
+    border: 2px solid rgb(73, 149, 77);
+}
+.layout_padding{
+    padding-top: 14vh;
+}
+.imgcir{
+    border-radius: 50%;
+}
+.heading_s1{
+    margin-top: 8vh;
+    padding-left: 5%;
+}
+.full{
+    border-top: 4px solid rgb(73, 149, 77);
+    overflow: hidden;
+}
+.fullh1{
+    overflow: hidden;
+    margin-top: 1vh;
+}
+
+.r-left{
+    padding-left: 5%;
+}
+.section-content{
+    margin-top: 0px;
+}
+.prelative{
+    height: 50vh;
+}
+section2home{
+    padding-top: 10vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3vh;
+    background-color: #DBE7C9;
+    min-height: 60vh;
+    margin-top: 10vh;
+}
+.fadeInUp{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.iconhomes{
+    height:100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.fa{
+    color: white;
+    font-size: 40px;
+    overflow: hidden;
+}
+
+.mainbutton{
+    height: 50px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(73, 149, 77);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 5vh;
+}
+.mainbutton:hover{
+    background-color:rgb(73, 149, 77) ;
+    .about-btn{
+        color: white;
+        background-color: rgb(73, 149, 77);
+    }
+    
+}
+.about-btn{
+    color: rgb(73, 149, 77);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+sectionhome3{
+    padding-top: 10vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3vh;
+    min-height: 60vh;
+    width: 100%;
+}
+sectionhome4
+{
+    padding-top: 3vh;
+    margin: auto;
+    margin-top: 10vh;
+    width: 100%;
+    background-color: #DBE7C9;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.sec4ppp{
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+}
+.sec4p{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.img-fluid{
+    height: 230px;
+    width: 230px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 230px;
+    margin-bottom: 4vh;
+}
+.section-contentss{
+    width: 100%;
+}
+.bounce{
+    padding-top: 10vh;
+}
+.bounce p{
+    margin-top: -1vh;
+}
+.sec4pp{
+    overflow: hidden;
+    color: rgb(73, 149, 77);
+}
+sectionhome5{
+    background-color: rgb(73, 149, 77);
+    width: 100%;
+    padding-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15vh;
+}
+.sce5p{
+    color: #f9f3e2;
+    overflow: hidden;
+}
+.sce5ppp{
+    color: #f9f3e2;
+    overflow: hidden;
+}
+.sce5pp{
+    color: #f9f3e2;
+    margin-top: 4vh;
+    overflow: hidden;
+    padding-right: 22%;
+    padding-left: 22%;
+}
+.section-contents ul{
+    display: flex;
+    margin-top: 7vh;
+    margin-left: 35%;
+}
+.section-contents ul li a img{
+    color: black;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.main_img{
+    overflow: hidden;
+}

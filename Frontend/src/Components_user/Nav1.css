@@ -1,0 +1,51 @@
+/* Navbar styles */
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+/* Left side styles */
+.left {
+    display: flex;
+}
+
+.social-icon {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Center logo styles */
+.center {
+    flex: 1; /* Takes up remaining space */
+    text-align: center;
+    overflow: hidden;
+}
+
+.center img {
+    max-width: 100px; /* Adjust as per your logo size */
+    margin-left: 18%;
+}
+
+/* Right side styles */
+.right {
+    display: flex;
+}
+
+.contact-info {
+    margin-right: 10px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left, .right {
+        margin-top: 10px;
+    }
+}

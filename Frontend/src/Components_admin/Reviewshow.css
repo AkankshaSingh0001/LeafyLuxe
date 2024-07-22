@@ -1,0 +1,65 @@
+.areviews {
+   
+    background-color:white;
+  }
+  
+  .atitle {
+    margin-bottom: 10px;
+    background-color: rgb(38, 156, 44);
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  .areviews-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .areview {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(234, 230, 230);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  }
+  
+  .abody-review {
+    margin-top: 10px;
+    color:black
+  }
+  
+  .aname-review {
+    font-weight: bold;
+    
+  }
+  
+  .aplace-review {
+    color: #666;
+    
+  }
+.hreview{
+    color:green;
+    overflow:hidden
+}
+ 
+  .adesc-review {
+    margin-top: 10px;
+  }
+  
+  .acredit {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .acredit a {
+    color: #888;
+    text-decoration: none;
+  }
+  
+  .acredit a:hover {
+    text-decoration: underline;
+  }
+  

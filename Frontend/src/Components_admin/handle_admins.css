@@ -1,0 +1,40 @@
+.row{
+    padding: 10px;
+}
+.EditButton{
+    background-color: rgb(85, 148, 219);
+    height: 40px;
+    width:100px;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.DeleteButton{
+    background-color: rgb(184, 53, 53);
+    height: 40px;
+    width:100px;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.admintable th{
+    text-align: center;
+    background-color: rgb(38, 156, 44);
+    height: 50px;
+}
+.admintable td{
+    text-align: center;
+}
+.addhandleee{
+    margin-bottom: 20px;
+    text-decoration: none;
+    margin-left: 70%;
+    background-color: rgb(38, 156, 44);
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    color: rgb(23, 23, 23);
+    width: 230px;
+    display: block;
+}

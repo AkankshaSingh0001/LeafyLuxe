@@ -1,0 +1,20 @@
+section1{
+    width: 100%;
+}
+.nav3rr{
+    background-color: rgb(73, 149, 77);
+}
+.op{
+    padding-top:3vh ;
+    padding-bottom: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.op:hover{
+    background-color: #aebe96;
+}
+.hadj{
+    color: #fff;
+    overflow: hidden;
+}

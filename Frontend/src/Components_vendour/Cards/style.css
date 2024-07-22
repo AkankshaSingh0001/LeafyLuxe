@@ -1,0 +1,19 @@
+
+.edit{
+    margin-left: 31%;
+    height: 35px;
+    width: 100px;
+    background-color: rgb(139, 212, 228);
+    border: none;
+}
+.del{
+    height: 35px;
+    width: 100px;
+    border: none;
+    background-color: rgb(238, 100, 100);
+}
+.veditcard{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

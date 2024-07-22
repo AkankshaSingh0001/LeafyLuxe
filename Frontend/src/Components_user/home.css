@@ -1,0 +1,15 @@
+.form-container {
+    position: absolute;
+    top: -100%; /* Initially off-screen */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: top 0.5s ease; /* Smooth upward transition */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container.active {
+    top: 50%; /* Slide into view */
+  }

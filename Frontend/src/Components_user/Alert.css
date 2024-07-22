@@ -1,0 +1,35 @@
+/* Alert.css */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    height: 10vh;
+    width: 50%;
+    background-color: rgb(38, 156, 44);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .alert span{
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .alert .close {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.5;
+  }
+  
+  .alert .close:hover {
+    color: #000;
+    opacity: 0.75;
+  }
+  

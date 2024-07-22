@@ -1,0 +1,48 @@
+.order-section {
+    position: absolute;
+    top: 10%;
+    left: 19%;
+    width: 83%;
+    height: 108vh;
+    background-color: rgb(45, 121, 45);
+
+  }
+  .order-box {
+    background-color: rgb(246, 255, 234);
+    padding: 20px;
+    text-align: center;
+    height:150px;
+    width:300px;
+    border-radius:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  .torder{
+    overflow: hidden;
+    font-size:30px;
+    color:rgb(58, 117, 11);
+    text-decoration: underline #ffff;
+  }
+  .order-box p {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 400;
+    
+    text-decoration: underline #ffff;
+    letter-spacing: 1px;
+    color:rgb(58, 117, 11);
+  }
+  .adminmainr1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 15%;
+    justify-content: space-around;
+    margin-bottom: 100px;
+  }
+  Link{
+    text-decoration: underline #ffff;
+  }

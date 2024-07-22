@@ -1,0 +1,21 @@
+.showordermmm{
+  
+  
+  padding: 20px;
+}
+.showordermmm table{
+  width: 100%;
+}
+.showordermmm h1{
+  overflow: hidden;
+}
+.showordermmm thead{
+  background-color:rgb(58, 117, 11); 
+}
+.showordermmm button{
+  height: 40px;
+  width: 120px;
+  border: none;
+  background-color: rgb(105, 179, 199);
+  overflow: hidden;
+}

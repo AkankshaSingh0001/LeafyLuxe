@@ -1,0 +1,126 @@
+/* .vendor-container {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .vendor-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .vendor-card {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .vendor-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .vendor-info {
+    padding: 10px;
+  }
+  
+  .vendor-info h3 {
+    margin: 0;
+  }
+  
+  .vendor-info p {
+    margin: 5px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .edit {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 24px;
+  }
+  
+  .edit:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+  } */
+  .vendor-container {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .vendor-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .vendor-card {
+    width: calc(25% - 20px); /* Adjust the width as needed for four cards */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .vendor-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .vendor-info {
+    padding: 10px;
+  }
+  
+  .vendor-info h3 {
+    margin: 0;
+  }
+  
+  .vendor-info p {
+    margin: 5px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .edit {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 24px;
+    overflow: hidden;
+  }
+  
+  .edit:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
+
+  

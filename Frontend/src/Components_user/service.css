@@ -1,0 +1,157 @@
+.serbg{
+    width: 100%;
+    height: 30vh;
+    background-image: url("../Image/servbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px 0px 80px 0px;
+    margin-bottom: 10vh;
+}
+.serbg1{
+    width: 100%;
+    height: 30vh;
+    opacity: 0.7;
+    background-color: black;
+    position: relative;
+    border-radius: 0px 0px 80px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serbg1 span{
+    font-size: 50px;
+    color: white;
+}
+.head1{
+    height: 70vh;
+    overflow: hidden;
+}
+.servs1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servs11 img{
+    border-radius: 20px;
+}
+.concirrrr{
+        width: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         height: 55px;
+         background-color:rgb(225, 223, 223);
+         overflow: hidden;
+    }
+    .serblo1s{
+        font-weight: bold;
+    }
+.servs2{
+    padding: 5%;
+}
+.sermain2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sermain3{
+    padding: 3%;
+}
+sectionhome5{
+    background-color: rgb(73, 149, 77) !important;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sce5p{
+    color: #f9f3e2;
+    overflow: hidden;
+}
+.sce5ppp{
+    color: #f9f3e2;
+    overflow: hidden;
+}
+.sce5pp{
+    color: #f9f3e2;
+    margin-top: 4vh;
+    overflow: hidden;
+    padding-right: 22%;
+    padding-left: 22%;
+}
+.section-contents ul{
+    display: flex;
+    margin-top: 7vh;
+    margin-left: 35%;
+}
+.section-contents ul li a img{
+    color: black;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+}
+.kk{
+    background-color: rgb(73, 149, 77);
+    padding-top:10vh;
+    padding-bottom: 10vh;
+}
+.Servmm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    flex-direction: column;
+}
+.Servmm h2{
+    overflow: hidden;
+}
+.Servmm p{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.galarycards{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.galarycards h3{
+    color: rgb(73, 149, 77);
+    overflow: hidden;
+    padding-bottom: 1vh;
+}
+.galarycards div{
+    padding: 10px;
+}
+.galarycards img:hover{
+    opacity: 0.7;
+}
+.servbuu{
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+.servbuu p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.servbuu button{
+    background-color: rgb(73, 149, 77);
+    border: none;
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    margin-top: 4vh;
+    color: white;
+}
+.servbuu button:hover{
+    background-color: white;
+    border: 2px solid rgb(73, 149, 77);
+    color: rgb(73, 149, 77);
+}

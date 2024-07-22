@@ -1,0 +1,37 @@
+section{
+    min-height: 100vh;
+    background-color: white;
+    
+}
+.pp{
+    display: flex;
+    margin-top: 8vh;
+    height: 60vh;
+    background-color: white;
+}
+.ppp{
+    margin-left:38%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.bb{
+    background-color: rgb(38, 156, 44);
+    height: 50px;
+    width: 170px;
+    color: black;
+    border: none;
+    border-radius: 7px;
+}
+.bb:hover{
+    background-color: rgb(141, 184, 106);
+}
+.img111{
+    margin-top: 20px;
+    height: 180px;
+    width: 180px;
+    border-radius: 180px;
+}
+.r1{
+    background-color: #DBE7C9;
+}

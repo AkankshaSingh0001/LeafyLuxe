@@ -1,0 +1,33 @@
+.orderplacedmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(73, 149, 77);
+}
+.oorderplaced{
+    background-color: white;
+    
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.oorderplaced span{
+    font-size: 35px;
+    margin-bottom: -60px;
+    z-index: 999;
+    color:rgb(73, 149, 77);
+    
+}
+.oorderplaced Link{
+    
+    margin-top: -60px;
+    color: rgb(73, 149, 77);
+    text-decoration: none;
+}

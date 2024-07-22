@@ -1,0 +1,50 @@
+ 
+.rrrr1{
+    background-color: white;
+}
+.cccc1{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+}
+.mgmmm{
+    width:230px;
+    height:230px;
+    border-radius: 50%;
+    margin:auto;
+    opacity: 1;
+}
+.mgmmm:hover{
+    opacity: 0.8;
+}
+.cccc2{
+    width:320px;
+    height:320px;
+    margin:auto; 
+    background-color: white;
+    
+}
+.cccc3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.s9{
+    color: black;
+    font-size: 20px;
+    text-decoration: underline #fff;
+}
+
+.addp{
+    opacity: 0.5;
+    
+}
+.extra{
+    margin-top: -40px;
+}
+    

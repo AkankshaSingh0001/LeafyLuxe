@@ -1,0 +1,21 @@
+section{
+    background-color: #DBE7C9;
+}
+.start{
+    margin-top: 10vh;
+}
+.headingstyle{
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 5vh;
+    color: rgb(38, 156, 44);;
+}
+.form-group{
+    margin-bottom: 3vh;
+}
+.btn33{
+    height: 40px;
+    width: 140px;
+    align-items: center;
+    margin-top: 5vh;
+}

@@ -1,0 +1,43 @@
+.s{
+  color: black;
+  text-decoration: underline #fff;    
+}
+.cc1{
+  height: 60vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.imgmmm{
+  width:230px;
+  height:230px;
+  border-radius: 50%;
+  margin:auto;
+  opacity: 1;
+}
+.img:hover{
+  opacity: 0.8;
+}
+.cc2{
+  width:270px;
+  height:270px;
+  margin:auto; 
+}
+.cc3
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.addp{
+  opacity: 0.5;
+  
+}
+
+.r11111{
+  margin-top: 40px;
+}

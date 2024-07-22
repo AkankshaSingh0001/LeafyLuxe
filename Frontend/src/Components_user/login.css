@@ -1,0 +1,21 @@
+.loginrow{
+    margin-top: 5vh;
+    
+}
+.loginimage{
+    float: right;
+}
+.formcol{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+    padding: 20px;
+}
+.headinglogin{
+    text-align: center;
+    overflow: hidden;
+}
+.mainlogin{
+    background-color: #DBE7C9;
+    min-height: 100vh;
+    
+}
