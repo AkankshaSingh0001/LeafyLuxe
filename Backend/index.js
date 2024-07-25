@@ -31,12 +31,20 @@ const storage = multer.diskStorage({
   },
 });
 
+
+
 const upload = multer({ storage });
 
 
 
 const app=express();
-app.use(cors())
+app.use(cors(
+  {
+    orign:["https://deploy-mern-1whq.vercel.app"],
+    methods:["POST","GET"],
+    credentials:true
+  }
+));
 app.use(express.json())
 app.use(express.static('uploads')); // Serve uploaded images
 
