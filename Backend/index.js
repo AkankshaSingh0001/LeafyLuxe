@@ -35,9 +35,6 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
-mongoose.connect('mongodb+srv://admin:admin123@leafyluxe.rbkui5q.mongodb.net/leafyluxe?retryWrites=true&w=majority&appName=Leafyluxe')
-
-
 
 const app=express();
 app.use(cors(
@@ -59,11 +56,12 @@ main().then(()=>{
 }).catch(err=>{console.log(err);
 });
 
-// async function main()
-// {
-//     await mongoose.connect(MONGO_URL);
+ async function main()
+/{
+mongoose.connect('mongodb+srv://admin:admin123@leafyluxe.rbkui5q.mongodb.net/leafyluxe?retryWrites=true&w=majority&appName=Leafyluxe')
 
-// }
+
+ }
 
 app.get("/",(req,res)=>{
     res.send("app is working")
