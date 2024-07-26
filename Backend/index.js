@@ -59,11 +59,11 @@ main().then(()=>{
 }).catch(err=>{console.log(err);
 });
 
-async function main()
-{
-    await mongoose.connect(MONGO_URL);
+// async function main()
+// {
+//     await mongoose.connect(MONGO_URL);
 
-}
+// }
 
 app.get("/",(req,res)=>{
     res.send("app is working")
