@@ -99,6 +99,8 @@ import Cancle from './Components_admin/Cancle';
 
 function App() {
 
+const handleSumbit=(e)=>{axios.post('https://leafy-luxe.vercel.app/')}
+  
   return ( 
     <>
       <BrowserRouter>
