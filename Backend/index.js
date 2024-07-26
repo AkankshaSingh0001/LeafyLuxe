@@ -35,6 +35,8 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
+mongoose.connect('mongodb+srv://admin:admin123@leafyluxe.rbkui5q.mongodb.net/leafyluxe?retryWrites=true&w=majority&appName=Leafyluxe')
+
 
 
 const app=express();
