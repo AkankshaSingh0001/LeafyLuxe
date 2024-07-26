@@ -42,7 +42,7 @@ mongoose.connect('mongodb+srv://admin:admin123@leafyluxe.rbkui5q.mongodb.net/lea
 const app=express();
 app.use(cors(
   {
-    orign:["https://deploy-mern-1whq.vercel.app"],
+    orign:["leafy-luxe-frontend.vercel.app"],
     methods:["POST","GET"],
     credentials:true
   }
