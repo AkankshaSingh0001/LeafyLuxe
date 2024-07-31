@@ -37,6 +37,9 @@ const upload = multer({ storage });
 
 
 const app=express();
+
+app.use(express.json())
+app.use(express.static('uploads')); // Serve uploaded images
 app.use(cors(
   {
     orign:["https://leafy-luxe-frontend.vercel.app"],
@@ -44,9 +47,6 @@ app.use(cors(
     credentials:true
   }
 ));
-app.use(express.json())
-app.use(express.static('uploads')); // Serve uploaded images
-
 
 
 
@@ -57,7 +57,7 @@ main().then(()=>{
 });
 
  async function main()
-/{
+{
 mongoose.connect('mongodb+srv://admin:admin123@leafyluxe.rbkui5q.mongodb.net/leafyluxe?retryWrites=true&w=majority&appName=Leafyluxe')
 
 
