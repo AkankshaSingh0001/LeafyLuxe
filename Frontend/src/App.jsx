@@ -101,7 +101,7 @@ function App() {
 axios.default.withCredentials=true;
 const handleSumbit=(e)=>{
   e.preventDefault();
-  axios.post('https://leafy-luxe.vercel.app/',{})
+  axios.post('https://leafy-luxe.vercel.app/ragister',{})
   .then(result=>console.log(result))
   .catch(err=>console.log(err))
 }
