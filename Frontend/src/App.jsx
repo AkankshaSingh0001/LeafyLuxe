@@ -98,7 +98,7 @@ import Cancle from './Components_admin/Cancle';
 
 
 function App() {
-
+axios.default.withCredentials=true;
 const handleSumbit=(e)=>{
   e.preventDefault();
   axios.post('https://leafy-luxe.vercel.app/register',{name,email,password})
