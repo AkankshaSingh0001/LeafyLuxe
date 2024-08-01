@@ -99,7 +99,7 @@ import Cancle from './Components_admin/Cancle';
 
 function App() {
 
-const handleSumbit=(e)=>{axios.post('https://leafy-luxe.vercel.app/')}
+// const handleSumbit=(e)=>{axios.post('https://leafy-luxe.vercel.app/')}
 
   axios.default.withCredentials=true;
 const handleSumbit=(e)=>{
