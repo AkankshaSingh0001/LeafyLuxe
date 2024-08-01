@@ -101,7 +101,7 @@ function App() {
 
 // const handleSumbit=(e)=>{}
 
-  axios.default.withCredentials=true;
+  axios.defaults.withCredentials=true;
 const handleSumbit=(e)=>{
   e.preventDefault();
   axios.post('https://leafy-luxe.vercel.app/')
