@@ -99,15 +99,15 @@ import Cancle from './Components_admin/Cancle';
 
 function App() {
 
-// const handleSumbit=(e)=>{}
+const handleSumbit=(e)=>{axios.post('https://leafy-luxe.vercel.app/')}
 
-  axios.default.withCredentials=true;
-const handleSumbit=(e)=>{
-  e.preventDefault();
-  axios.post('https://leafy-luxe.vercel.app/')
-  .then(result=>console.log(result))
-  .catch(err=>console.log(err))
-}
+//   axios.default.withCredentials=true;
+// const handleSumbit=(e)=>{
+//   e.preventDefault();
+  
+//   .then(result=>console.log(result))
+//   .catch(err=>console.log(err))
+// }
   
   return ( 
     <>
