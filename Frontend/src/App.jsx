@@ -100,6 +100,14 @@ import Cancle from './Components_admin/Cancle';
 function App() {
 
 const handleSumbit=(e)=>{axios.post('https://leafy-luxe.vercel.app/')}
+
+  axios.default.withCredentials=true;
+const handleSumbit=(e)=>{
+  e.preventDefault();
+  axios.post('https://leafy-luxe.vercel.app/ragister')
+  .then(result=>console.log(result))
+  .catch(err=>console.log(err))
+}
   
   return ( 
     <>
