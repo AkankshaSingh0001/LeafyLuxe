@@ -104,7 +104,7 @@ function App() {
   axios.default.withCredentials=true;
 const handleSumbit=(e)=>{
   e.preventDefault();
-  axios.post('https://leafy-luxe.vercel.app/register',{name,email,password})
+  axios.post('https://leafy-luxe.vercel.app/')
   .then(result=>console.log(result))
   .catch(err=>console.log(err))
 }
