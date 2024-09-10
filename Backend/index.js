@@ -42,7 +42,7 @@ app.use(express.json())
 app.use(express.static('uploads')); // Serve uploaded images
 app.use(cors(
   {
-    orign:[""],
+    orign:["https://leafy-luxe-ffront.vercel.app/"],
     methods:["POST","GET"],
     credentials:true
   }
